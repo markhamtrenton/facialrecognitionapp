@@ -1,0 +1,22 @@
+{
+  "name": "facialrecognitionapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "face-api.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markhamtrenton/facialrecognitionapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markhamtrenton/facialrecognitionapp/issues"
+  },
+  "homepage": "https://github.com/markhamtrenton/facialrecognitionapp#readme",
+  "dependencies": {
+    "face-api.js": "^0.22.2"
+  }
+}

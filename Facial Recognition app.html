@@ -4,6 +4,24 @@
 
 <html>
     <head>
+        <script defer src="face-api.min.js"></script>
+        <script defer src="script.js"></script>
+        <style> 
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+            canvas {
+                position: absolute;
+            }
+        
+        </style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Facial Recogniztion</title>
@@ -12,10 +30,8 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+       <input type="file" id="imageUpload">
         
-        <script src="" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>
